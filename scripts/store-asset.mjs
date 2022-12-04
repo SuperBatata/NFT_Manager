@@ -8,12 +8,12 @@ const { NFT_STORAGE_API_KEY } = process.env
 async function storeAsset() {
    const client = new NFTStorage({ token: NFT_STORAGE_API_KEY })
    const metadata = await client.store({
-       name: 'fisrt NFT',
-       description: 'My ExampleNFT is an awesome artwork!',
+       name: 'Devfest 2022',
+       description: 'devfest2022 is a conference for developers',
        image: new File(
-           [await fs.promises.readFile('assets/image.png')],
-           'image.png',
-           { type: 'image/png' }
+           [await fs.promises.readFile('assets/image.jpg')],
+           'image.jpg',
+           { type: 'image/jpg' }
        ),
    })
    console.log("Metadata stored on Filecoin and IPFS with URL:", metadata.url)
