@@ -1,8 +1,8 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/home/superpotato/Desktop/Walt.id/NFT_Tutorial_Polygon/contracts/ExampleNFT.sol": {
-      "lastModificationDate": 1668955515758,
+    "/home/superpotato/Desktop/NFT_ERC721_Polygon/contracts/ExampleNFT.sol": {
+      "lastModificationDate": 1679260820591,
       "contentHash": "ba72956b0b619e0d51c5727bcd8301ae",
       "sourceName": "contracts/ExampleNFT.sol",
       "solcConfig": {
@@ -41,43 +41,8 @@
         "ExampleNFT"
       ]
     },
-    "/home/superpotato/Desktop/Walt.id/NFT_Tutorial_Polygon/node_modules/@openzeppelin/contracts/utils/Counters.sol": {
-      "lastModificationDate": 1668553503549,
-      "contentHash": "74654e3ae5d7f39555055dfe244dab7a",
-      "sourceName": "@openzeppelin/contracts/utils/Counters.sol",
-      "solcConfig": {
-        "version": "0.8.17",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "Counters"
-      ]
-    },
-    "/home/superpotato/Desktop/Walt.id/NFT_Tutorial_Polygon/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
-      "lastModificationDate": 1668553503566,
+    "/home/superpotato/Desktop/NFT_ERC721_Polygon/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
+      "lastModificationDate": 1692316400893,
       "contentHash": "e436cea06129be2c73cda4b1acc848b5",
       "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
       "solcConfig": {
@@ -113,9 +78,44 @@
         "Ownable"
       ]
     },
-    "/home/superpotato/Desktop/Walt.id/NFT_Tutorial_Polygon/node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol": {
-      "lastModificationDate": 1668553503553,
-      "contentHash": "190f627b9302b9602d3a313e28205cc5",
+    "/home/superpotato/Desktop/NFT_ERC721_Polygon/node_modules/@openzeppelin/contracts/utils/Counters.sol": {
+      "lastModificationDate": 1692316400836,
+      "contentHash": "74654e3ae5d7f39555055dfe244dab7a",
+      "sourceName": "@openzeppelin/contracts/utils/Counters.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Counters"
+      ]
+    },
+    "/home/superpotato/Desktop/NFT_ERC721_Polygon/node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol": {
+      "lastModificationDate": 1692316400866,
+      "contentHash": "79ff1a7eb801a525aa315fb7a679eede",
       "sourceName": "@openzeppelin/contracts/token/ERC721/ERC721.sol",
       "solcConfig": {
         "version": "0.8.17",
@@ -156,8 +156,8 @@
         "ERC721"
       ]
     },
-    "/home/superpotato/Desktop/Walt.id/NFT_Tutorial_Polygon/node_modules/@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol": {
-      "lastModificationDate": 1668553503556,
+    "/home/superpotato/Desktop/NFT_ERC721_Polygon/node_modules/@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol": {
+      "lastModificationDate": 1692316400866,
       "contentHash": "8af32effd0536e2971ff8496812a5016",
       "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol",
       "solcConfig": {
@@ -193,8 +193,8 @@
         "ERC721URIStorage"
       ]
     },
-    "/home/superpotato/Desktop/Walt.id/NFT_Tutorial_Polygon/node_modules/@openzeppelin/contracts/utils/Context.sol": {
-      "lastModificationDate": 1668553503549,
+    "/home/superpotato/Desktop/NFT_ERC721_Polygon/node_modules/@openzeppelin/contracts/utils/Context.sol": {
+      "lastModificationDate": 1692316400836,
       "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
       "sourceName": "@openzeppelin/contracts/utils/Context.sol",
       "solcConfig": {
@@ -228,9 +228,44 @@
         "Context"
       ]
     },
-    "/home/superpotato/Desktop/Walt.id/NFT_Tutorial_Polygon/node_modules/@openzeppelin/contracts/utils/Address.sol": {
-      "lastModificationDate": 1668553503546,
-      "contentHash": "f31ad6fc4bbf9c06203987220156a6ba",
+    "/home/superpotato/Desktop/NFT_ERC721_Polygon/node_modules/@openzeppelin/contracts/utils/Strings.sol": {
+      "lastModificationDate": 1692316400896,
+      "contentHash": "cf46906c4035f51639a22265066a9e78",
+      "sourceName": "@openzeppelin/contracts/utils/Strings.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Strings"
+      ]
+    },
+    "/home/superpotato/Desktop/NFT_ERC721_Polygon/node_modules/@openzeppelin/contracts/utils/Address.sol": {
+      "lastModificationDate": 1692316400823,
+      "contentHash": "c476b3895a94798b88a4bb97399e6dfe",
       "sourceName": "@openzeppelin/contracts/utils/Address.sol",
       "solcConfig": {
         "version": "0.8.17",
@@ -263,46 +298,9 @@
         "Address"
       ]
     },
-    "/home/superpotato/Desktop/Walt.id/NFT_Tutorial_Polygon/node_modules/@openzeppelin/contracts/utils/Strings.sol": {
-      "lastModificationDate": 1668553503566,
-      "contentHash": "396031251978f8febfd90cb62cb240ec",
-      "sourceName": "@openzeppelin/contracts/utils/Strings.sol",
-      "solcConfig": {
-        "version": "0.8.17",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./math/Math.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "Strings"
-      ]
-    },
-    "/home/superpotato/Desktop/Walt.id/NFT_Tutorial_Polygon/node_modules/@openzeppelin/contracts/token/ERC721/IERC721.sol": {
-      "lastModificationDate": 1668553503563,
-      "contentHash": "eb7e61db29f31d88b3c1cef1b063d338",
+    "/home/superpotato/Desktop/NFT_ERC721_Polygon/node_modules/@openzeppelin/contracts/token/ERC721/IERC721.sol": {
+      "lastModificationDate": 1692316400889,
+      "contentHash": "ec99d946db3685a3630554aa6055bd7f",
       "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721.sol",
       "solcConfig": {
         "version": "0.8.17",
@@ -337,8 +335,8 @@
         "IERC721"
       ]
     },
-    "/home/superpotato/Desktop/Walt.id/NFT_Tutorial_Polygon/node_modules/@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol": {
-      "lastModificationDate": 1668553503563,
+    "/home/superpotato/Desktop/NFT_ERC721_Polygon/node_modules/@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol": {
+      "lastModificationDate": 1692316400889,
       "contentHash": "c22d4395e33763de693fd440c6fd10e1",
       "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol",
       "solcConfig": {
@@ -372,8 +370,8 @@
         "IERC721Receiver"
       ]
     },
-    "/home/superpotato/Desktop/Walt.id/NFT_Tutorial_Polygon/node_modules/@openzeppelin/contracts/utils/introspection/ERC165.sol": {
-      "lastModificationDate": 1668553503553,
+    "/home/superpotato/Desktop/NFT_ERC721_Polygon/node_modules/@openzeppelin/contracts/utils/introspection/ERC165.sol": {
+      "lastModificationDate": 1692316400849,
       "contentHash": "0e7db055ce108f9da7bb6686a00287c0",
       "sourceName": "@openzeppelin/contracts/utils/introspection/ERC165.sol",
       "solcConfig": {
@@ -409,8 +407,8 @@
         "ERC165"
       ]
     },
-    "/home/superpotato/Desktop/Walt.id/NFT_Tutorial_Polygon/node_modules/@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol": {
-      "lastModificationDate": 1668553503563,
+    "/home/superpotato/Desktop/NFT_ERC721_Polygon/node_modules/@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol": {
+      "lastModificationDate": 1692316400889,
       "contentHash": "efbc0d15b80a74e34dbe8da0f3e879bb",
       "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol",
       "solcConfig": {
@@ -446,43 +444,8 @@
         "IERC721Metadata"
       ]
     },
-    "/home/superpotato/Desktop/Walt.id/NFT_Tutorial_Polygon/node_modules/@openzeppelin/contracts/utils/math/Math.sol": {
-      "lastModificationDate": 1668553503566,
-      "contentHash": "b9c58920ce74d6dc819161786112e7ee",
-      "sourceName": "@openzeppelin/contracts/utils/math/Math.sol",
-      "solcConfig": {
-        "version": "0.8.17",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "Math"
-      ]
-    },
-    "/home/superpotato/Desktop/Walt.id/NFT_Tutorial_Polygon/node_modules/@openzeppelin/contracts/utils/introspection/IERC165.sol": {
-      "lastModificationDate": 1668553503559,
+    "/home/superpotato/Desktop/NFT_ERC721_Polygon/node_modules/@openzeppelin/contracts/utils/introspection/IERC165.sol": {
+      "lastModificationDate": 1692316400879,
       "contentHash": "03e6768535ac4da0e9756f1d8a4a018a",
       "sourceName": "@openzeppelin/contracts/utils/introspection/IERC165.sol",
       "solcConfig": {
@@ -514,6 +477,46 @@
       ],
       "artifacts": [
         "IERC165"
+      ]
+    },
+    "/home/superpotato/Desktop/NFT_ERC721_Polygon/contracts/soulboundNFT.sol": {
+      "lastModificationDate": 1692316514397,
+      "contentHash": "12854deba01c0dcfd0b7f67eeab25e5b",
+      "sourceName": "contracts/soulboundNFT.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC721/ERC721.sol",
+        "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol",
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "@openzeppelin/contracts/utils/Counters.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "SoulBoundTest"
       ]
     }
   }

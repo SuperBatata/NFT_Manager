@@ -1,15 +1,17 @@
 /**
-* @type import('hardhat/config').HardhatUserConfig
-*/
-
+ * @type import('hardhat/config').HardhatUserConfig
+ */
 
 require("@nomiclabs/hardhat-ethers");
-require('dotenv').config();
+require("dotenv").config();
 const { PRIVATE_KEY } = process.env;
 module.exports = {
-  defaultNetwork: "PolygonMumbai",
+  defaultNetwork: "shimmerevm-testnet",
   networks: {
-    hardhat: {
+    hardhat: {},
+    "shimmerevm-testnet": {
+      url: "https://json-rpc.evm.testnet.shimmer.network",
+      accounts: [PRIVATE_KEY],
     },
     PolygonMumbai : {
       url: "https://rpc-mumbai.maticvigil.com",
@@ -21,9 +23,8 @@ module.exports = {
     settings: {
       optimizer: {
         enabled: true,
-        runs: 200
-      }
-    }
+        runs: 200,
+      },
+    },
   },
-}
-
+};

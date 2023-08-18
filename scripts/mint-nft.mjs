@@ -1,15 +1,19 @@
-const CONTRACT_ADDRESS = "0x1Fdb5268Ab76FA67BFDBa909F3052Ca5B8Ad2Cbf";
+const CONTRACT_ADDRESS = "0x8ccD9e068359Cd7Da942EB91Ed256a30e6c87351";
 const META_DATA_URL =
-  "ipfs:/bafyreie6jqawhw22tidle2sv3xvhesi7vimfhrxvhpwnake2x2zz25yjxm/metadata.json";
+  "ipfs://bafyreif4kwqtazluietfemmk55odviuquylcsfb4httqggionbn6ydwawq/metadata.json";
 
-async function mintNFT(contractAddress, metaDataURL) {
-  const ExampleNFT = await ethers.getContractFactory("ExampleNFT");
-  const [owner] = await ethers.getSigners();
-  await ExampleNFT.attach(contractAddress).mintNFT(owner.address, metaDataURL);
-  console.log("NFT minted to: ", owner.address);
+async function mintNFT(contractAddress, recipientAddress, metaDataURL) {
+  const SoulBoundTest = await ethers.getContractFactory("SoulBoundTest");
+  const contract = await SoulBoundTest.attach(contractAddress);
+
+  // Call the safeMint function with the recipient's address
+  await contract.safeMint(recipientAddress, metaDataURL);
+
+  console.log("NFT minted to: ", recipientAddress);
 }
 
-mintNFT(CONTRACT_ADDRESS, META_DATA_URL)
+const recipientAddress = "0x6bd3c4195a0E268C9dE21566D2fCfB53fBA48fB9"; // Replace with the desired recipient's address
+mintNFT(CONTRACT_ADDRESS, recipientAddress, META_DATA_URL)
   .then(() => process.exit(0))
   .catch((error) => {
     console.error(error);
