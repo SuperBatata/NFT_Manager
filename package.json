@@ -1,6 +1,8 @@
 {
   "name": "hardhat-project",
   "dependencies": {
-    "@openzeppelin/contracts": "^4.7.0"
+    "@openzeppelin/contracts": "^4.7.0",
+    "chai": "^4.3.7",
+    "chai-as-promised": "^7.1.1"
   }
 }

@@ -13,10 +13,10 @@ module.exports = {
       url: "https://json-rpc.evm.testnet.shimmer.network",
       accounts: [PRIVATE_KEY],
     },
-    PolygonMumbai : {
+    PolygonMumbai: {
       url: "https://rpc-mumbai.maticvigil.com",
-      accounts: [PRIVATE_KEY]
-    }
+      accounts: [PRIVATE_KEY],
+    },
   },
   solidity: {
     version: "0.8.17",
