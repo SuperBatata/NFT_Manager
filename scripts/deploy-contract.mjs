@@ -1,5 +1,5 @@
 async function deployContract() {
-  const ExampleNFT = await ethers.getContractFactory("SoulBoundTest");
+  const ExampleNFT = await ethers.getContractFactory("waltidSoulBound");
   const exampleNFT = await ExampleNFT.deploy();
   await exampleNFT.deployed();
   // This solves the bug in Mumbai network where the contract address is not the real one

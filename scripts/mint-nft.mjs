@@ -1,4 +1,4 @@
-const CONTRACT_ADDRESS = "0x8ccD9e068359Cd7Da942EB91Ed256a30e6c87351";
+const CONTRACT_ADDRESS = "0xaad7Db09Da8309BC40b14B075464763Ec4A40ad6";
 const META_DATA_URL =
   "ipfs://bafyreif4kwqtazluietfemmk55odviuquylcsfb4httqggionbn6ydwawq/metadata.json";
 
