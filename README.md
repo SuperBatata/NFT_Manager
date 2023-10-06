@@ -35,6 +35,12 @@ npx hardhat run scripts/store-asset.mjs
 npx hardhat run scripts/mint-nft.mjs --network [choose network here]
 ```
 
+<p>5. revoke SBT NFT</p>
+
+```
+npx hardhat run scripts/revoke.mjs --network [choose network here]
+```
+
 <h2>💻 Built with</h2>
 
 Technologies used in the project:
